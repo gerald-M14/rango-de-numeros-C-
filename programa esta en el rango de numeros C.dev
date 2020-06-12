@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <conio.h>
+#define Limite_Inferior 100
+#define Limite_Superior 200
+
+int main()
+{
+float Numero=0; //Definimos nuestra variable
+printf("----Problema 1-----\n");
+printf("Introduzca un número: ");
+scanf("%f", &Numero);
+if (Numero >= Limite_Inferior)
+{
+if (Numero <= Limite_Superior)
+{
+printf("Está dentro del intervalo");
+}
+else
+printf("Supera el límite máximo ");
+}
+else
+printf("No alcanza el límite mínimo");
+return 0;
+}
